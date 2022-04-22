@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 /*Обнуление*/
 *{padding: 0;margin: 0;border: 0;}
 *,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
@@ -20,4 +21,46 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     height: 20vh;
     background-color: black;
     background: url('../img/nav-logo.png') 0 -60px/100% no-repeat;
+}
+
+main {
+    height: 80vh;
+    width: 100%;
+    background-color: aqua;
+    padding: 5vh;
+}
+
+#main-flexbox {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    color: white;
+}
+
+#main-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    width: 40%;
+    padding: 5vh;
+    word-spacing: 5px;
+}
+
+#main-images1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 25vh;
+}
+
+#main-images2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10vh;
 }
