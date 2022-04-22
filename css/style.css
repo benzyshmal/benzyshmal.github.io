@@ -86,11 +86,11 @@ footer {
     height: 23vh;
 }
 
-#popUp-before {
+#popUp-inactive {
     display: none;
 }
 
-#popUp-after {
+#popUp-active {
     position: fixed;
     width: 40vh;
     height: 20vh;
@@ -98,7 +98,7 @@ footer {
     bottom: 1vh;
 }
 
-#popUp-after img {
+#popUp-active img {
     width: 100%;
     height: 100%;
     border-radius: 20px;
