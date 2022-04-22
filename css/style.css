@@ -64,3 +64,21 @@ p {
     justify-content: space-around;
     padding-left: 10vh;
 }
+
+#popUp-before {
+    display: none;
+}
+
+#popUp-after {
+    position: fixed;
+    width: 40vh;
+    height: 20vh;
+    right: 1vh;
+    bottom: 1vh;
+}
+
+#popUp-after img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
