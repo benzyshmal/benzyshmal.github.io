@@ -64,3 +64,22 @@ p {
     justify-content: space-around;
     padding-left: 10vh;
 }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 21vh;
+    background-color: black;
+}
+
+.icon-size {
+    width: 200px;
+    height: 200px;
+}
+
+.icon1{
+    width: 200px;
+    height: 300px;
+}
